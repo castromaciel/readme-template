@@ -158,9 +158,9 @@ Badges used from [Ileriayo • markdown-badges](https://github.com/Ileriayo/mark
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/castromaciel/readme-template
+[license-shield]: https://img.shields.io/github/license/castromaciel/readme-template?style=flat-square
 [license-url]: https://github.com/castromaciel/readme-template/blob/main/LICENSE
-[stars-shield]: https://img.shields.io/github/stars/castromaciel/readme-template
+[stars-shield]: https://img.shields.io/github/stars/castromaciel/readme-template?style=flat-square
 [stars-url]: https://github.com/castromaciel/readme-template
 [nodejs-url]: https://nodejs.org/en
 [react]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
