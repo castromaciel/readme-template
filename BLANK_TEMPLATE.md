@@ -1,0 +1,180 @@
+<!-- PROJECT SHIELDS -->
+[![The MIT License][license-shield]][license-url]
+[![stars][stars-shield]][stars-url]
+
+<!-- PROJECT TITLE -->
+<h1 align="center">Project_Title</h1>
+
+<!-- PROJECT DESCRIPTION -->
+<div align="center">
+  <p align="center">
+    Project description
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    •
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    •
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#technologies-used">Technologies used</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#development">Development</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#make-it-your-own">Make it your own</a></li>
+        <li><a href="#install-dependencies">Install dependencies</a></li>
+        <li><a href="#available-scripts">Available Scripts</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#base-dependencies">Base Dependencies</a></li>
+    <li><a href="#folder-structure">Folder Structure</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#credits">Credits</a></li>
+  </ol>
+</details>
+
+## About the project
+
+Description about the project.
+
+[![page][page-image]][page-image-url]
+
+### Technologies used
+[![react][react]][react-url]
+[![redux][redux]][redux-url]
+[![sass][sass]][sass-url]
+[![typescript][ts]][ts-url]
+[![jest][jest]][jest-url]
+[![react-testing-library][react-testing-library]][react-testing-library-url]
+
+
+## Development
+
+### Prerequisites
+Here we'll list things you need to use the software and how to install them.
+
+* [Pre-requisite 1][profile-url]
+* [Pre-requisite 2][profile-url]
+
+### Make it your own
+To get a local copy, clone it using:
+```bash
+git clone https://github.com/github_username/repo_name.git
+```
+
+Or get it downloading
+
+```bash
+rm -rf .git && git init
+git add .
+git commit -m "Initial commit"
+```
+
+### Install dependencies:
+
+```bash
+pnpm install
+#or
+yarn install
+#or
+npm install 
+```
+
+### Available Scripts
+
+In this project, you can run the following scripts:
+
+| Scripts       | Description                                         |
+| ------------- | --------------------------------------------------- |
+| npm build     | Builds the app for production to the `dist` folder.  |
+| npm dev       | Runs the app in the development mode.                |
+| npm test      | Runs tests.                                          |
+
+## Usage
+Here you can set and show examples of how the project can be used. You can add code samples or some additional works. Also add additional resources or links.
+
+## Base Dependencies
+
+- [react][react-url] create user interfaces from components.
+- [redux][redux-url] for stylesheets.
+- [jest][jest-url] and [react-testing-library][react-testing-library] for testing.
+
+## Folder Structure
+
+```bash
+project-name/
+├── node_modules             # Third party libraries
+├── public                   # 
+└── src                      # Root directory
+|  ├── __tests__             # Test all functionalities
+|  ├── components            # Common components
+|  ├── helpers               # Common functions
+|  ├── hooks                 # 
+|  ├── pages                 # All pages of app
+|  ├── routes                # Routes configuration
+|  ├── services              # Requests to the server
+|  ├── App.tsx               # 
+|  ├── index.scss            # 
+|  ├── main.tsx              # 
+|  └── vite-env.d.ts         # 
+├── .env.development         # 
+├── .eslintignore            # 
+├── .eslintrc.json           # Styleguide configuration
+├── .gitignore               # Files ignored at publish into github
+├── index.html               # 
+├── LICENSE                  # License information
+├── package.json             # 
+├── README.md                # 
+├── tsconfig.json            # 
+├── tsconfig.node.json       # 
+├── vite.config.js           # 
+```
+
+## License
+
+This project is licensed under the terms of the [MIT license][license-url].
+
+## Credits
+
+Project_title is built and maintained by [John Doe][profile-url].
+
+Badges used from [Ileriayo • markdown-badges](https://github.com/Ileriayo/markdown-badges).
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[license-shield]: https://img.shields.io/github/license/castromaciel/readme-template
+[license-url]: https://github.com/castromaciel/readme-template/blob/main/LICENSE
+[stars-shield]: https://img.shields.io/github/stars/castromaciel/readme-template
+[stars-url]: https://github.com/castromaciel/readme-template
+
+[nodejs-url]: https://nodejs.org/en
+[profile-url]: https://github.com/github_username
+
+[react]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[react-url]: https://react.dev/
+[redux]: https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
+[redux-url]: https://redux.js.org/
+[sass]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
+[sass-url]: https://sass-lang.com/
+[ts]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[ts-url]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[jest]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
+[jest-url]: https://jestjs.io/
+[react-testing-library]: https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white
+[react-testing-library-url]: https://testing-library.com/docs/react-testing-library/intro/
+
+[page-image]: ./images/preview.png
+[page-image-url]: ./images/preview.png
